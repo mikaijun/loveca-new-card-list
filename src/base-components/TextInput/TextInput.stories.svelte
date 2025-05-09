@@ -1,7 +1,6 @@
 <script module>
 	import { defineMeta } from '@storybook/addon-svelte-csf';
-
-	import TextInput from './TextInput.svelte';
+	import TextInput from '$base/TextInput/TextInput.svelte';
 
 	const { Story } = defineMeta({
 		component: TextInput,

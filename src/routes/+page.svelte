@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { TextInput } from '../base-components/TextInput';
+	import TextInput from '$base/TextInput/TextInput.svelte';
 </script>
 
 <h1>Welcome</h1>
